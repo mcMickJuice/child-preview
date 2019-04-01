@@ -8,9 +8,13 @@ body {
 }
 
 .section {
-  height: 150px;
-  width: 150px;
+  /* height: 150px;
+  width: 150px; */
   border: 1px dotted blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .shader {
@@ -18,4 +22,21 @@ body {
   opacity: 0.2;
   position: fixed;
   pointer-events: none;
+}
+
+.section-image {
+  display: block;
+}
+
+.section-headline {
+  margin-top: 8px;
+  width: 50%;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.section-subhead {
+  font-size: 14px;
+  text-align: center;
 }

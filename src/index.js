@@ -51,21 +51,21 @@ function removeShader() {
   shadingDiv.style = ''
 }
 
-function setupEvent(selector) {
-  // on mouse over
-  document.querySelector(selector).addEventListener('mouseenter', evt => {
-    evt.stopPropagation()
-    addShader(selector)
-  })
-  // on mouse leave
-  document.querySelector(selector).addEventListener('mouseleave', evt => {
-    evt.stopPropagation()
-    removeShader()
-  })
-}
+// function setupEvent(selector) {
+//   // on mouse over
+//   document.querySelector(selector).addEventListener('mouseenter', evt => {
+//     evt.stopPropagation()
+//     addShader(selector)
+//   })
+//   // on mouse leave
+//   document.querySelector(selector).addEventListener('mouseleave', evt => {
+//     evt.stopPropagation()
+//     removeShader()
+//   })
+// }
 
-;['.section-1 > h3', '.section-2 > h3', '.section-3 > h3', '.header'].forEach(
-  selector => {
-    setupEvent(selector)
-  }
-)
+// ;['.section-1 > h3', '.section-2 > h3', '.section-3 > h3', '.header'].forEach(
+//   selector => {
+//     setupEvent(selector)
+//   }
+// )
