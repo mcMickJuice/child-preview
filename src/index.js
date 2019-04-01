@@ -2,7 +2,7 @@ import './styles.css'
 
 const list = document.getElementById('messages')
 
-document.addEventListener(
+window.addEventListener(
   'message',
   evt => {
     console.log(evt)
