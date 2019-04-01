@@ -1,6 +1,6 @@
 import './styles.css'
 
-const list = document.getElementById('messages')
+// const list = document.getElementById('messages')
 
 window.addEventListener(
   'message',
@@ -22,9 +22,9 @@ window.addEventListener(
 )
 
 function addMessage(message) {
-  const li = document.createElement('li')
-  li.innerText = message
-  list.appendChild(li)
+  // const li = document.createElement('li')
+  // li.innerText = message
+  // list.appendChild(li)
 }
 
 const shadingDiv = document.createElement('div')
